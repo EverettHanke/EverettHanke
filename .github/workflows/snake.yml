@@ -15,13 +15,13 @@ jobs:
       - name: Generate Snake SVG
         uses: platane/snk@v2
         with:
-          github_token: ${{ secrets.THESNAKETOKEN }}
-          svg: true
-          width: 1200
-          height: 600
+          github_user_name: ${{ github.actor }}  # Use the GitHub username of the action runner (or your username)
+          entryPoint: "github.com"  # Default entry point (you can change this if needed)
+          args: "-svg"  # This flag generates the snake in SVG format
+          github_token: ${{ secrets.THESNAKETOKEN }}  # Reference the secret token
 
       - name: Upload Snake SVG
-        uses: actions/upload-artifact@v3  # Updated to v3
+        uses: actions/upload-artifact@v3
         with:
           name: snake
           path: snake.svg

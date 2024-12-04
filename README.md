@@ -1,12 +1,12 @@
 <div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
+  <img height="150"  src="https://media.giphy.com/media/uVJPQbu72k0HkKEXT1/giphy.gif?cid=ecf05e47tkx9pjjksa6shq3bow62y95utmibuyyo1uebze1s&ep=v1_stickers_search&rid=giphy.gif&ct=s" />
 </div>
 
 ###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/everett-hanke-82b074228/"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  /></a>
-  <a href="https://www.unrealengine.com/marketplace/en-US/store"><img src="https://img.shields.io/static/v1?message=Unreal%20Marketplace&logo=unrealengine&label=&color=5C3D8A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="unreal marketplace logo" /></a>
+  <a href="https://www.fab.com/sellers/FORGE%20TEK%20STUDIOS"><img src="https://img.shields.io/static/v1?message=Unreal%20Marketplace&logo=unrealengine&label=&color=5C3D8A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="unreal marketplace logo" /></a>
   <a href="https://everetthanke.github.io/MyPortfolio/"><img src="https://img.shields.io/static/v1?message=Website&logo=internet-explorer&label=&color=5A4FCF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="website logo" /></a>
 
 </div>

@@ -2,7 +2,7 @@ name: Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Update every day at midnight
+    - cron: "0 0 * * *"  # Run once a day at midnight UTC
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           height: 600
 
       - name: Upload Snake SVG
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3  # Updated to v3
         with:
           name: snake
           path: snake.svg

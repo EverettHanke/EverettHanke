@@ -1,0 +1,27 @@
+name: Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Update every day at midnight
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Generate Snake SVG
+        uses: platane/snk@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          svg: true
+          width: 1200
+          height: 600
+
+      - name: Upload Snake SVG
+        uses: actions/upload-artifact@v2
+        with:
+          name: snake
+          path: snake.svg

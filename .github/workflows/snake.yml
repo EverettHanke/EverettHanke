@@ -15,9 +15,8 @@ jobs:
       - name: Generate Snake SVG
         uses: platane/snk@v2
         with:
-          github_user_name: ${{ github.actor }}  # This will dynamically set the username
-          entryPoint: "github.com"  # Default entry point (you can change this if needed)
-          args: "-svg"  # This flag generates the snake in SVG format
+          github_user_name: ${{ github.actor }}  # Dynamically set the GitHub username
+          args: "-svg"  # Flag to generate snake in SVG format
 
       - name: Upload Snake SVG
         uses: actions/upload-artifact@v3

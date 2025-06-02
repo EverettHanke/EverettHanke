@@ -28,9 +28,10 @@
 ###
 
 <p align="left">I'm a Senior Computer Science Bachelors Student from Green River College.<br>
-  <br>- 🔭 I’m working as a Tutor and Supplemental Instructor at my College.
+  <br>- 🔭 I am currently working as an Associate Software Engineer for Sinclair.
   <br>- 📚 I'm currently finishing up my Bachelors in Computer Science.
-  <br>- ⚡ In my free time, I dive into Indie Game Development projects and contribute to Open-Source initiatives to stay mentally sharp and creatively engaged. Recently, I've been focusing on applying for industry positions, but if time allows, I’m eager to complete the Elden Ring DLC!</p>
+  <br>- ⚡ In my free time, I dive into Indie Game Development projects and contribute to Open-Source initiatives to stay mentally sharp and creatively engaged. 
+</p>
 
 ###
 <div align="center">
